@@ -1,0 +1,3 @@
+/home/kyle/rayTracing/project/build/CMakeFiles/inOneWeekend.dir
+/home/kyle/rayTracing/project/build/CMakeFiles/edit_cache.dir
+/home/kyle/rayTracing/project/build/CMakeFiles/rebuild_cache.dir
