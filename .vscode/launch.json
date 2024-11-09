@@ -7,7 +7,7 @@
             "program": "${workspaceFolder}/project/build/inOneWeekend",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/project/build",
+            "cwd": "${workspaceFolder}/project",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
