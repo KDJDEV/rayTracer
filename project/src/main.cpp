@@ -6,9 +6,9 @@
 #include "vec3.h"
 
 color rayColor(const ray& r) {
-    vec3 unitDirection = unitVector(r.direction());
+    vec3 unitDirection = r.direction();
     auto a = 0.5 * (unitDirection.y() + 1.0);
-    std::cout << "This is a: " << a << '\n';
+    //std::cout << "This is a: " << a << '\n';
     return (1.0 - a) * color(1.0, 1.0, 1.0) + a * color(0.5, 0.7, 1.0);
 }
 
@@ -16,7 +16,7 @@ int main() {
     std::ofstream imageFile("./image.ppm");
 
     auto aspectRatio = 16.0 / 9.0;
-    int imageWidth = 10;
+    int imageWidth = 400;
     int imageHeight = int(imageWidth / aspectRatio);
     imageHeight = (imageHeight < 1) ? 1 : imageHeight;
 
